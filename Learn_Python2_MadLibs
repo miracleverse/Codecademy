@@ -1,0 +1,24 @@
+TORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world."
+
+print "Wanna play? Mad libs is sterting!"
+
+name = raw_input("Enter a name:")
+adj_person = raw_input("Enter a name of person:")
+adj_emotion = raw_input("Enter your emotion:")
+adj_daywibe = raw_input("Enter a daywibe:")
+
+#Verbs & Nouns
+adj_verb = raw_input("Enter a verb:")
+adj_noun1 = raw_input("Enter first noun:")
+adj_noun2 = raw_input("Enter second noun:")
+
+#Additional questions
+adj_animal = raw_input("Enter an animal:")
+adj_food = raw_input("Enter a food:")
+adj_fruit = raw_input("Enter a fruit:")
+adj_superhero = raw_input("Enter a superhero:")
+adj_country = raw_input("Enter a country:")
+adj_dessert = raw_input("Enter a dessert:")
+adj_year = raw_input("Enter a year:")
+
+print STORY % (name, adj_person, adj_emotion, adj_daywibe, adj_verb, adj_noun1, adj_noun2, adj_animal, adj_food, adj_fruit, adj_superhero, adj_country, adj_dessert, adj_year)
